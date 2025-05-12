@@ -1,0 +1,906 @@
+
+@media screen and (min-width: 1240px) and (max-width: 30000px) {
+.mainheader-nav {
+    display: block !important;
+}
+
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1239px) {
+.container {
+    padding: 0 30px;
+}
+
+.mainheader-nav {
+    display: block !important;
+}
+
+.newtext-part {
+    border-image-source: linear-gradient(176deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+}
+
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.container {
+    padding: 0 30px;
+}
+
+
+.footer-part {
+    gap: 60px;
+}
+
+.footerrtpart {
+    gap: 30px;
+}
+
+
+.coincrazhero-left h1 {
+    font-size: 60px;
+    padding-bottom: 5px;
+}
+
+.coincrazhero-left p br {
+    display: none;
+}
+
+.coincrazsyws-right h2 {
+    font-size: 55px;
+    line-height: 64px;
+    padding-bottom: 10px;
+}
+
+.coincrazsyws-right a {
+    margin-top: 29px;
+}
+
+
+.mainheader-nav {
+    display: block !important;
+}
+
+
+.popupleft {
+    display: none;
+}
+
+
+.popuppart {
+    width: 569px;
+    margin: auto;
+    height: 650px;
+}
+
+.popupright {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    margin-left: 0px;
+}
+
+.popupformitems input {
+    padding: 11px 14px;
+}
+
+.newtext-part {
+    border-image-source: linear-gradient(176deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+}
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.container {
+    padding: 0 30px;
+}
+
+.header-nav ul li {
+    margin: 0 7px;
+}
+
+.mainheader-nav {
+    width: 50%;
+}
+
+.header-logo {
+    width: 25%;
+}
+
+
+.header-btns {
+    width: 25%;
+}
+
+
+.circalimg1 {
+    display: none;
+}
+
+.header-btns a {
+    font-size: 16px;
+    width: 170px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.coincrazhero-part {
+    gap: 25px;
+    z-index: 9;
+}
+
+.coincrazhero-left h1 {
+    font-size: 45px;
+    padding-bottom: 6px;
+}
+
+.coincrazhero-left p br {
+    display: none;
+}
+
+.coincrazhero-left a {
+    font-size: 18px;
+    width: 235px;
+    height: 50px;
+    margin-top: 24px;
+}
+
+.coincrazsyws-right h2 {
+    font-size: 41px;
+    font-weight: 800;
+    color: transparent;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+.coincrazsyws-right p {
+    font-size: 18px;
+}
+
+
+.coincrazsyws-right a {
+    font-size: 16px;
+    width: 160px;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 25px;
+}
+
+.coincrazhero-area {
+    padding: 50px 0;
+    padding-bottom: 30px;
+}
+
+.coincrazsyws-area {
+    padding: 65px 0;
+    padding-bottom: 30px;
+}
+
+.coincraz-tgp-area {
+    padding: 60px 0;
+    padding-bottom: 30px;
+}
+
+.coincraz-tgp-hd h2 {
+    font-size: 40px;
+}
+
+.coincraz-tgp-hd {
+    padding-bottom: 50px;
+}
+
+
+.coincraz-tgp-itemimg {
+    height: 120px;
+}
+
+.coincraz-tgp-itemtext h3 {
+    font-size: 16px;
+}
+
+.coincraz-wcbb-itemtext h3 {
+    font-size: 16px;
+}
+
+.coincraz-orgms-area {
+    padding: 65px 0;
+    padding-bottom: 0px;
+}
+
+.coincraz-orgms-part {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.coincraz-orgms-hd h2 {
+    font-size: 40px;
+}
+
+.coincraz-orgmsval-btn a {
+    font-size: 16px;
+    width: 173px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.coincraz-orgmsval-btn {
+    padding-top: 50px;
+}
+.coincraz-wcbb-hd h2 {
+    font-size: 40px;
+}
+
+
+.coincraz-wcbb-hd {
+    padding-bottom: 50px;
+}
+
+.coincraz-wcbb-item {
+    padding: 30px 10px;
+}
+
+.faq-heading h2 {
+    font-size: 40px;
+}
+
+.faq-heading {
+    padding-bottom: 50px;
+}
+
+.coincrazemcad-part h2 {
+    font-size: 40px;
+}
+
+.coincrazemcad-part {
+    padding: 0 30px;
+    padding-top: 60px;
+}
+
+.coincrazemcad-area {
+    padding: 100px 0;
+    padding-top: 60px;
+}
+
+
+.footer-part {
+    display: block;
+    gap: 0px;
+}
+
+.footerleft {
+    width: 100%;
+}
+
+
+.footerright {
+    width: 100%;
+}
+
+.mainheader-nav {
+    display: block !important;
+}
+
+.popupleft {
+    display: none;
+}
+
+
+.popuppart {
+    width: 569px;
+    margin: auto;
+    height: 650px;
+}
+
+.popupright {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    margin-left: 0px;
+}
+
+.popupformitems input {
+    padding: 11px 14px;
+}
+
+
+
+.newtext-part {
+    border-image-source: linear-gradient(176deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+}
+
+
+
+}
+
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+.mbheader-btns {
+    display: block;
+}
+
+.cmheader-btns {
+    display: none;
+}
+
+.menu-part {
+    display: block;
+    width: 30%;
+    text-align: right;
+}
+
+.header-logo {
+    width: 70%;
+}
+
+.header-area {
+    padding: 20px 0;
+}
+
+.mainheader-nav {
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    top: 67px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    z-index: 9999;
+    display: none;
+}
+
+
+.header-nav ul li {
+    display: block;
+    margin: 0 0px;
+    padding-bottom: 24px;
+}
+
+.header-btns a {
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    margin: auto;
+    margin-right: auto;
+}
+
+.header-btns {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.circalimg1 {
+    display: none;
+}
+
+.coincrazhero-right {
+    display: none;
+}
+
+.coincrazhero-part {
+    display: block;
+    z-index: 9;
+}
+
+.coincrazhero-left {
+    width: 100%;
+}
+
+.coincrazhero-left img {
+    display: block;
+}
+
+
+.coincrazhero-left h1 {
+    font-size: 38px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.coincrazhero-left p br {
+    display: none;
+}
+
+.coincrazhero-left p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+}
+
+
+.coincrazhero-left a {
+    font-size: 16px;
+    width: 226px;
+    height: 46px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 46px;
+    margin: auto;
+    margin-top: 28px;
+}
+
+.coincrazhero-area {
+    padding: 40px 0;
+    padding-bottom: 30px;
+}
+
+.coincrazsyws-part {
+    display: block;
+    gap: 0px;
+    padding: 35px 15px;
+    border-image-source: none;
+    border: 1px solid #ebd3a870;
+    border-radius: 22px;
+}
+
+.coincrazsyws-left {
+    width: 100%;
+}
+
+.coincrazsyws-right {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.coincrazsyws-right h2 {
+    font-size: 35px;
+    line-height: 47px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.coincrazsyws-right p {
+    font-size: 17px;
+}
+
+
+.coincrazsyws-right a {
+    font-size: 16px;
+    width: 185px;
+    height: 46px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 46px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.coincrazsyws-area {
+    padding: 25px 0;
+    padding-bottom: 30px;
+}
+
+.coincraz-tgp-hd h2 {
+    font-size: 35px;
+}
+
+.coincraz-tgp-hd {
+    padding-bottom: 30px;
+}
+
+
+.coincraz-tgp-area {
+    padding: 25px 0;
+    padding-bottom: 30px;
+}
+
+
+.coincraz-tgp-part {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.coincraz-orgms-hd h2 {
+    font-size: 30px;
+}
+
+.coincraz-orgms-hd p {
+    font-size: 16px;
+}
+
+.coincraz-orgms-area {
+    padding: 20px 0;
+    padding-bottom: 30px;
+}
+
+.coincraz-orgms-hd {
+    padding-bottom: 30px;
+}
+
+.coincraz-orgms-part {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    justify-content: space-around;
+    grid-row-gap: 15px;
+}
+
+.maincoincraz-orgms-image {
+    border-radius: 10px;
+}
+
+.coincraz-orgmsval-btn {
+    padding-top: 30px;
+}
+
+.coincraz-orgmsval-btn a {
+    font-size: 16px;
+    width: 165px;
+    height: 45px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 45px;
+    margin: auto;
+}
+
+.coincraz-wcbb-area {
+    padding: 20px 0;
+    padding-bottom: 30px;
+}
+
+.coincraz-wcbb-hd h2 br {
+    display: none;
+}
+
+.coincraz-wcbb-hd h2 {
+    font-size: 30px;
+}
+
+.coincraz-wcbb-hd {
+    padding-bottom: 35px;
+}
+
+.coincraz-wcbb-part {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.coincraz-wcbb-item {
+    padding: 30px 15px;
+}
+
+.coincraz-wcbb-itemtext h3 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.faq-area {
+    padding: 20px 0;
+    padding-bottom: 0px;
+}
+
+.faq-heading h2 {
+    font-size: 30px;
+}
+
+.faq-heading {
+    padding-bottom: 25px;
+}
+
+.accordion-header {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.accordion-content {
+    font-size: 14px;
+    padding: 23px 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    padding-top: 0px;
+}
+
+.coincrazemcad-area {
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+
+.coincrazemcad-part h2 {
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.coincrazemcad-part {
+    padding: 0 20px;
+    padding-top: 36px;
+    border-radius: 15px;
+}
+
+.coincrazemcad-part p {
+    font-size: 16px;
+}
+
+.coincrazemcad-part a {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 170px;
+    height: 42px;
+    line-height: 42px;
+    display: block;
+    border-radius: 32.5px;
+    margin-top: 22px;
+}
+
+.coincrazemcad-part img {
+    margin-top: 25px;
+}
+
+.footer-part {
+    display: block;
+    gap: 0px;
+}
+
+.footerleft {
+    width: 100%;
+}
+
+.footerright {
+    width: 100%;
+}
+
+
+.footerleft h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footerleft p {
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+
+.footerrtpart {
+    display: block;
+    gap: 0px;
+    padding-top: 35px;
+}
+
+
+.footerrtleft {
+    width: 100%;
+}
+
+
+.footerrtright {
+    width: 100%;
+}
+
+.footerrtleft h3 {
+    text-align: center;
+}
+
+.footerrtitem h4 {
+    text-align: center;
+}
+
+.footerrtitem p {
+    text-align: center;
+}
+.footerrtrigfht {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-area {
+    padding: 40px 0;
+}
+
+.popuppart {
+    width: 288px;
+    display: block;
+    margin: auto;
+    height: 483px;
+}
+
+.popupleft {
+    width: 100%;
+    display: none;
+}
+
+.popupright {
+    width: 100%;
+    height: 100%;
+    padding: 25px 15px;
+    margin-left: 0px;
+}
+
+.popupform-heading h3 {
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.popupform-heading p {
+    font-size: 12px;
+}
+
+
+.popupform-heading {
+    padding-bottom: 15px;
+}
+
+.popupformitems p {
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+.popupformitems input {
+    font-size: 12px;
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 11px;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 6px;
+}
+
+
+.popupformitems h6 {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+
+.toggle-password img {
+    width: 14px;
+    height: 14px;
+}
+
+.toggle-password {
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    top: 6px;
+}
+
+.popupformitems input[type="submit"] {
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 0px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+
+.popupform-item3 h5 {
+    font-size: 11px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.checkboxpart {
+    font-size: 11px;
+    line-height: 28px;
+}
+
+
+
+
+.newhero-area {
+    padding: 30px 0;
+}
+
+.newhero-part h2 {
+    font-size: 35px;
+}
+
+.newtext-part {
+    border-image-source: linear-gradient(223deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    padding: 20px 15px;
+}
+
+.newtextitem-headig h2 {
+    font-size: 30px;
+    padding-bottom: 9px;
+}
+
+.newtextitem-headig h3 {
+    font-size: 15px;
+}
+
+
+.newtextitem-headig p {
+    font-size: 14px;
+}
+
+.newtextitem2 h2 {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+
+.newtextitem2 h3 {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.newtextitem2 ul li p {
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 13px;
+    margin-top: -13px;
+}
+
+.newtextitem2 h4 {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.newtextitem2 {
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+
+.newtextitem1 h2 {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.newtextitem2 h5 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

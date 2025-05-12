@@ -1,0 +1,1498 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #1a1142;
+	color: #333333;	
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.container {
+    max-width: 1240px;
+    display: block;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/*--- coincrazmain-area start --*/
+.coincrazmain-area {
+    background-image: url('img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0px;
+    overflow: hidden;
+}
+
+
+/*--- header-area start --*/
+.coincrazmain2-area {
+    background-image: url('img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0px;
+    overflow: hidden;
+}
+
+
+
+/*--- header-area start --*/
+.header-area {
+  padding: 35px 0; 
+  position: relative;
+  z-index: 9999;
+}
+
+
+.header-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 20%;
+}
+
+.mainheader-nav {
+    width: 60%;
+}
+
+.header-btns {
+    width: 20%;
+}
+
+.header-logo img {
+    max-width: 100%;
+    display: block;
+}
+
+.header-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header-nav ul li:first-child {
+     margin-left: 0px;
+} 
+
+.header-nav ul li:last-child {
+     margin-right: 0px;
+} 
+
+.header-nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+    transition: 0.3s all ease;
+}
+
+.header-nav ul li a:hover {
+    color: #f4d752;
+}
+
+.header-btns  a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    width: 190px;
+    height: 50px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s all ease;
+    margin: auto;
+    margin-right: 0; 
+}
+
+
+.header-btns a:hover {
+    background: linear-gradient(180deg, #fff 0%, #fff 100%);
+    color: #000;
+}
+
+.menu-part {
+  display: none;
+}
+
+
+.menu-part img {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(53%) saturate(453%) hue-rotate(3deg) brightness(97%) contrast(95%);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.Close-icon {
+   display: none; 
+}
+
+
+/*--- coincrazhero-area start --*/
+.coincrazhero-area {
+  padding: 100px 0;
+  padding-bottom: 30px;   
+}
+
+
+.coincrazhero-part {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 99999;
+}
+
+.coincrazhero-left {
+    width: 50%;
+}
+
+.coincrazhero-right {
+    width: 50%;
+    position: relative;
+    z-index: 999;
+}
+
+
+.coincrazhero-left h1 {
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.coincrazhero-left p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;   
+}
+
+.coincrazhero-left a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    width: 287px;
+    height: 50px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s all ease;
+    margin-top: 37px;
+}
+
+.coincrazhero-left a:hover {
+   background: linear-gradient(180deg, #fff 0%, #fff 100%);
+   color: #000;
+}
+
+.coincrazhero-left img {
+    max-width: 100%;
+    display: none;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.coincrazhero-right img { 
+     max-width: 100%;
+     display: block;   
+     margin: auto;
+     margin-right: 0px;
+     position: relative;
+     z-index: 99;
+}
+
+
+.circalimg1 {
+    position: absolute;
+    right: -1px;
+    top: -112px;
+    z-index: 99;
+    height: 500px;
+}
+
+
+
+
+/*--- coincrazsyws-area start --*/
+.coincrazsyws-area {
+  padding: 100px 0;
+  padding-bottom: 30px;   
+}
+
+.maincoincrazsyws-part {
+    background-color: #281557;
+    border-radius: 22px;   
+}
+
+.coincrazsyws-part {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    border: 2px solid;
+    border-image-source: linear-gradient(95deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    padding: 25px 35px;
+}
+
+.coincrazsyws-left {
+   width: 50%;
+}
+
+
+.coincrazsyws-right {
+   width: 50%;
+}
+
+.coincrazsyws-left img {
+    max-width: 100%;
+    display: block;
+
+}
+
+.coincrazsyws-right h2 {
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    line-height: 80px;
+    padding-bottom: 10px;
+}
+
+.coincrazsyws-right p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;    
+}
+
+
+.coincrazsyws-right a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    width: 205px;
+    height: 50px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s all ease;
+    margin-top: 34px;
+}
+
+.coincrazsyws-right a:hover {
+   background: linear-gradient(180deg, #fff 0%, #fff 100%);
+   color: #000;
+}
+
+
+
+
+
+
+
+/*--- coincraz-tgp-area start --*/
+.coincraz-tgp-area {
+  padding: 100px 0;
+  padding-bottom: 30px;   
+}
+
+.coincraz-tgp-hd {
+    padding-bottom: 70px;
+}
+
+.coincraz-tgp-hd h2 {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.coincraz-tgp-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: space-around;
+    grid-row-gap: 30px;
+}
+
+.maincoincraz-tgp-item {
+   background: #291557;
+   border-radius: 22px; 
+   overflow: hidden;
+}
+
+
+.coincraz-tgp-item {
+    border: 2px solid;
+    border-image-source: linear-gradient(95deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    padding: 30px;
+}
+
+.coincraz-tgp-itemimg {
+    height: 151px;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+}
+
+.coincraz-tgp-itemimg img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.coincraz-tgp-itemtext h3 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*--- coincraz-orgms-area start --*/
+.coincraz-orgms-area {
+  padding: 100px 0;
+  padding-bottom: 30px;   
+}
+
+.coincraz-orgms-hd {
+    padding-bottom: 70px;
+}
+
+.coincraz-orgms-hd h2 {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.coincraz-orgms-hd p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 15px   
+}
+
+
+.coincraz-orgms-part {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    justify-content: space-around;
+    grid-row-gap: 30px;    
+}
+
+.maincoincraz-orgms-image {
+    background-color: #291557;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.coincraz-orgms-image {
+    border: 2px solid;
+    border-image-source: linear-gradient(95deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    padding: 10px;    
+}
+
+.coincraz-orgms-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 17px;
+}
+
+
+.coincraz-orgmsval-btn {
+    padding-top: 65px;
+}
+
+
+
+
+.coincraz-orgmsval-btn a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    width: 190px;
+    height: 50px;
+    display: block;
+    border-radius: 32.5px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s all ease;
+    margin: auto;
+}
+
+.coincraz-orgmsval-btn a:hover {
+   background: linear-gradient(180deg, #fff 0%, #fff 100%);
+   color: #000;
+}
+
+
+
+
+/*--- coincraz-wcbb-area start --*/
+.coincraz-wcbb-area {
+  padding: 100px 0;
+  padding-bottom: 30px;   
+}
+
+.coincraz-wcbb-hd {
+    padding-bottom: 70px;
+}
+
+.coincraz-wcbb-hd h2 {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.coincraz-wcbb-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: space-around;
+    grid-row-gap: 30px;
+}
+
+.maincoincraz-wcbb-item {
+   background: #291557;
+   border-radius: 22px; 
+   overflow: hidden;
+}
+
+
+.coincraz-wcbb-item {
+    border: 2px solid;
+    border-image-source: linear-gradient(95deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    padding: 30px;
+}
+
+.coincraz-wcbb-itemimg {
+    height: 151px;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+}
+
+.coincraz-wcbb-itemimg img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.coincraz-wcbb-itemtext h3 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+
+
+
+/*--- coincrazemcad-area start --*/
+.coincrazemcad-area {
+  padding: 100px 0;   
+}
+
+.coincrazemcad-br {
+    background-color: #281557;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.coincrazemcad-part {
+    border: 2px solid;
+    border-image-source: linear-gradient(111deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    border-radius: 20px;
+    padding-top: 60px;
+}
+
+.coincrazemcad-part h2 {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 15px;
+}
+
+.coincrazemcad-part p {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.coincrazemcad-part a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    border-radius: 32.5px;
+    margin-top: 35px;
+}
+
+.coincrazemcad-part img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 45px;   
+}
+
+
+
+
+
+
+
+
+/*--- faq-area start --*/
+.faq-area {
+  padding: 90px 0;
+  padding-bottom: 0px;
+}
+
+.faq-heading {
+    padding-bottom: 60px;
+}
+
+.faq-heading h2 {
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+.accordion {
+    width: 100%;
+    max-width: 994px;
+    margin: 0 auto;
+}
+
+.accordion-itembr {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    border: 2px solid;
+    border-image-source: linear-gradient(111deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch; 
+}
+
+.accordion-header {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 23px;
+    text-align: left;
+    background-color: #281557;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header .icon {
+    color: #ECC753;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.accordion-content {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 23px 23px;
+    padding-right: 284px;
+    font-weight: 300;
+    padding-top: 0px;
+    background-color: #281557;
+    display: none;
+    opacity: 0;
+    transform: scaleY(0.95);
+    transform-origin: top;
+    transition: opacity 0.3sease, transform 0.3s ease;
+}
+
+
+
+.accordion-content.show {
+  display: block;
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+
+
+
+/*--- hero-area start --*/
+.mbnewhero-area {
+  padding: 0px 0;
+}
+
+
+
+.newhero-area {
+  padding: 100px 0;
+}
+
+
+.newhero-part h2 {
+    font-size: 65px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+
+
+
+/*--- newtexts-area start --*/
+.newtexts-area {
+    padding: 70px 0;
+    padding-top: 0px;
+}
+
+
+.newtext-partbr {
+    border-radius: 22px;
+    overflow: hidden;
+    background-color: #281557;
+}
+
+.newtext-part {
+    border: 2px solid;
+    border-image-source: linear-gradient(95deg, rgba(236, 199, 83, 0) 0%, #FFE8B9 50.73%, rgba(207, 126, 0, 0) 100.23%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    padding: 25px 35px;
+}
+
+.newtextitem-headig {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.newtextitem-headig h2 {
+    font-size: 47px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 9px;
+}
+
+.newtextitem-headig h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.newtextitem-headig h3 span {
+    font-weight: 300;
+}
+
+.newtextitem-headig p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+    font-weight: 300;
+    padding-top: 28px;
+}
+
+
+
+
+
+
+
+.newtextitem1 {
+    padding-bottom: 30px;
+}
+
+.newtextitem1 h2 {
+    font-size: 27px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 9px;
+}
+
+.newtextitem1 p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 31px;   
+}
+
+
+
+.newtextitem1 h3 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 31px; 
+    padding-top: 8px;  
+}
+
+
+
+
+
+
+
+
+
+.newtextitem2 {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.newtextitem2 h2 {
+    font-size: 27px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #CF7E00 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 9px;
+}
+
+
+
+.newtextitem2 h3 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.newtextitem2 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 11px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.newtextitem2 ul li {
+   display: block;
+   padding-bottom: 12px;
+}
+
+.newtextitem2 ul li:last-child {
+   padding-bottom: 0px;    
+}
+
+.newtextitem2 ul li span {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    display: block;
+    border-radius: 40px;   
+}
+
+.newtextitem2 ul li p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 31px;
+    margin: 0;
+    padding-left: 14px;
+    margin-top: -17px;
+    font-weight: 300;
+}
+
+
+.Cookieslist {
+    padding-top: 0 !important;
+    margin-left: 20px !important;    
+}
+
+.newtextitems2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.newtextitem2 h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.newtextitem2 h5 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- footer-area start --*/
+.footerbr1 {
+  background-color: #39196f;    
+}
+.footerbr1 img {
+    width: 100%;
+    display: block;
+}
+
+.footer-area {
+  background-color: #39196f;
+  padding: 70px 0;
+}
+
+.footer-part {
+    display: flex;
+    gap: 150px;
+}
+
+.footerleft {
+    width: 45%;
+}
+
+.footerright {
+    width: 55%;
+}
+
+
+
+.footerleft h2 {
+    font-size: 35px;
+    font-weight: 600;
+    background: #F8FFE8;
+    background: linear-gradient(1deg, #ECC753 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 25px;
+    
+}
+
+.footerleft p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+    margin: 0;   
+}
+
+
+
+
+.footerrtpart {
+    display: flex;
+    gap: 80px;
+    padding-top: 45px;
+}
+
+.footerrtleft {
+    width: 50%;
+}
+
+.footerrtrigfht {
+    width: 50%;
+}
+
+.footerrtleft h3 {
+    font-size: 20px;
+    font-weight: 600;
+    background: #F8FFE8;
+    background: linear-gradient(1deg, #ECC753 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 16px;
+}
+
+.footerrtitem {
+    padding-bottom: 18px;
+}
+
+.footerrtitem h4 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.footerrtitem p {
+  margin: 0;  
+}
+
+.footerrtitem p a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;    
+}
+
+
+
+.footerrtnav h3 {
+    font-size: 20px;
+    font-weight: 600;
+    background: #F8FFE8;
+    background: linear-gradient(1deg, #ECC753 0%, #FEEC66 50%, #CF7E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 16px;
+}
+
+
+.footerrtnav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footerrtnav ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footerrtnav ul li {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.footerrtnav ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+/*--- copyright-area start --*/
+.copyright-area {
+    padding: 8px 0;
+    background-color: #1a1142;
+}
+
+.copyright-part p {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.mbheader-btns {
+    display: none;
+}
+
+
+
+
+
+/*--- popup-area start---*/
+.popup-area {
+   padding: 0px;
+}
+
+
+.popuppart {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    height: 650px;
+    background-color: #fff;
+}
+
+.popupleft {
+   width: 50%;
+   height: 100%;
+   position: relative;
+}
+
+.popupleft-item1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  
+}
+
+.popupleft-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popupright {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    padding: 45px 100px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    position: relative;
+    z-index: 9;
+}
+
+
+
+.popupform-heading {
+    padding-bottom: 30px;
+}
+
+.popupform-heading h3 {
+    color: #481E85;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.popupform-heading p {
+    color: #212529;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.popupform-item1 {
+    display: flex;
+    gap: 25px;
+}
+
+.popupformitems input {
+    color: #212529;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 400;
+    padding: 11px 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1.5px solid #d1c6e0;
+    outline: none;
+    margin-bottom: 12px;
+    background-color: #fff;
+}
+
+
+
+.popupformitems input:focus {
+    border: 1.5px solid #004896;    
+}
+
+.popupformitems input::placeholder {
+    color: #0C0C0C;
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+.maincheckbox {
+    padding-bottom: 2px;
+}
+
+.checkboxpart {
+    display: block;
+    position: relative;
+    padding-left: 29px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #0C0C0C;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.checkboxpart input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff00;
+    border: 1px solid #272727;
+    border-radius: 0px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkboxpart input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkboxpart .checkmark:after {
+    left: 7px;
+    top: 1px;
+    width: 4px;
+    height: 10px;
+    border: solid #0C0C0C;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.password-container input {
+   padding-right: 40px;
+   width: 100%;
+}
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+}
+.toggle-password img {
+filter: brightness(0) saturate(100%) invert(76%) sepia(67%) saturate(1199%) hue-rotate(340deg) brightness(91%) contrast(89%);
+    width: 15px;
+    height: 15px;
+}
+
+
+.popupformitems h6 {
+    color: #8366ac;
+    font-size: 11px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: -12px;
+    margin-bottom: 10px;    
+}
+
+
+.popupformitems input[type="submit"] {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 0px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    background: linear-gradient(180deg, #ECC753 0%, #CF7E00 100%);
+    margin-top: 28px;
+}
+
+
+
+
+
+
+.popupformitems input[type="submit"]:hover {
+    background-color: #000;
+}
+
+.popupform-item3 h5 {
+    color: #313131;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.popupform-item3 h5 a {
+    color: #A206D0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ppform-item1-left {
+    width: 50%;
+}
+
+.ppform-item1-right {
+    width: 50%;
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+.popup.active { display: block; }
+
+.close-btn {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.close-btn img {
+filter: brightness(0) saturate(100%) invert(31%) sepia(6%) saturate(72%) hue-rotate(177deg) brightness(97%) contrast(94%);
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000c9;
+    z-index: 1;
+}
+
+.overlay.active { 
+    display: block; 
+}
+
+
+
+
+.mainrbmeftpd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.mainrbmeftpd .maincheckbox {
+    padding-bottom: 0px;
+}
+
+.rbmeftpd-right p {
+   margin: 0;
+}
+
+.rbmeftpd-right p a {
+    color: #A206D0;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 400;  
+}
+
+.loginpart {
+    padding-bottom: 40px;
+}
+
+
+.popupformitems p {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 4px;   
+}
